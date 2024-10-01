@@ -1,4 +1,5 @@
 import './hero.css'
+import darkarrow from '/src/assets/dark-arrow.png'
 function Hero(){
     return(
                 <div className="hero container" id='hero'>
@@ -8,7 +9,7 @@ function Hero(){
                             students with the knowledge, skills, and experiences 
                             needed to excel in the dynamic field of education</p>
                         <button className='btn'>Explore more
-                            <img src="src/assets/dark-arrow.png" alt="" />
+                            <img src={darkarrow} alt="" />
                         </button>
                     </div>
                 </div>
