@@ -43,7 +43,7 @@ function Contact(){
                         <ul>
                             <li><img src={mail} alt="" />dasshibsankar94732@gmail.com</li>
                             <li><img src={phoneIcon} alt="" />+91 7384169731</li>
-                            <li> <img src={location} alt="" />Panchet, 721438, west Bengal, India</li>
+                            <li> <img src={location} alt="" />Panchet, Panchet garh 721438, west Bengal, India</li>
                         </ul>
                     </div>
                     <div className="contact-col">
