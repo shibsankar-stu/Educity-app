@@ -2,8 +2,8 @@ import '/src/components/about/about.css'
 function About(){
     return(<><div className='about'>
                 <div className="about-left">
-                    <img src="/src/assets/about.png" alt="about image" className='about-img'/>
-                    <img src="/src/assets/play-icon.png" alt="play Icon" className=' play-icon' />
+                    <img src="src/assets/about.png" alt="about image" className='about-img'/>
+                    <img src="src/assets/play-icon.png" alt="play Icon" className=' play-icon' />
                 </div>
                 <div className="about-right">
                     <h3>ABOUT UNIVERSITY</h3>

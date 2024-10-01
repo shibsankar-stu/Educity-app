@@ -25,7 +25,7 @@ function Navbar(){
             <li><Link to = 'testimonials' smooth = {true} offset={-260}  duration={500}>Testimonials</Link></li>
             <li><Link to = 'contact' smooth = {true} offset={-260}  duration={500} className='btn'>Contact us</Link></li>
         </ul>
-        <img src="/src/assets/menu-icon.png" alt="" className='menu-icon' onClick={togglemenu} />
+        <img src="src/assets/menu-icon.png" alt="" className='menu-icon' onClick={togglemenu} />
     </nav>
             </>);
 }

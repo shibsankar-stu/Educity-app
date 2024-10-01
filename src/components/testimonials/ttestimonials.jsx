@@ -22,14 +22,14 @@ function Testimonials(){
 
     return(<>
                     <div className="testimonials">
-                        <img src="/src/assets/next-icon.png" alt="" className='next-btn' onClick={slideForword} />
-                        <img src="/src/assets/back-icon.png" alt="" className='back-btn' onClick={slideBackword} />
+                        <img src="src/assets/next-icon.png" alt="" className='next-btn' onClick={slideForword} />
+                        <img src="src/assets/back-icon.png" alt="" className='back-btn' onClick={slideBackword} />
                         <div className="slider">
                             <ul ref={slider}>
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="/src/assets/user-1.png" alt="" />
+                                            <img src="src/assets/user-1.png" alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>
@@ -42,7 +42,7 @@ function Testimonials(){
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="/src/assets/user-2.png" alt="" />
+                                            <img src="src/assets/user-2.png" alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>
@@ -55,7 +55,7 @@ function Testimonials(){
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="/src/assets/user-3.png" alt="" />
+                                            <img src="src/assets/user-3.png" alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>
@@ -68,7 +68,7 @@ function Testimonials(){
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="/src/assets/user-4.png" alt="" />
+                                            <img src="src/assets/user-4.png" alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>

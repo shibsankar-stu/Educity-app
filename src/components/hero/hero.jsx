@@ -8,7 +8,7 @@ function Hero(){
                             students with the knowledge, skills, and experiences 
                             needed to excel in the dynamic field of education</p>
                         <button className='btn'>Explore more
-                            <img src="/src/assets/dark-arrow.png" alt="" />
+                            <img src="src/assets/dark-arrow.png" alt="" />
                         </button>
                     </div>
                 </div>
