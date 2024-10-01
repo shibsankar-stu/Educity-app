@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import mylogo from '/src/assets/logo.png'
+import menu from '/src/assets/menu-icon.png'
 import React from 'react';
 import { Link  } from 'react-scroll';
 import './navbar.css'
@@ -26,7 +27,7 @@ function Navbar(){
             <li><Link to = 'testimonials' smooth = {true} offset={-260}  duration={500}>Testimonials</Link></li>
             <li><Link to = 'contact' smooth = {true} offset={-260}  duration={500} className='btn'>Contact us</Link></li>
         </ul>
-        <img src="/src/assets/menu-icon.png" alt="" className='menu-icon' onClick={togglemenu} />
+        <img src={menu} alt="" className='menu-icon' onClick={togglemenu} />
     </nav>
             </>);
 }

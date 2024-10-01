@@ -1,8 +1,11 @@
 import React from 'react';
 import '/src/components/contact/contact.css'
+import msg from '/src/assets/msg-icon.png'
+import mail from '/src/assets/mail-icon.png'
+import phoneIcon from '/src/assets/phone-icon.png'
+import location from '/src/assets/location-icon.png'
+import arrow from '/src/assets/white-arrow.png'
 function Contact(){
-
-
 
     const [result, setResult] = React.useState("");
 
@@ -33,14 +36,14 @@ function Contact(){
     return (<>
                 <div className="contact">
                     <div className="contact-col">
-                        <h3>Send us a message <img src="src/assets/msg-icon.png" alt="" /></h3>
+                        <h3>Send us a message <img src={msg} alt="" /></h3>
                         <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university
                              community.</p>
 
                         <ul>
-                            <li><img src="src/assets/mail-icon.png" alt="" />dasshibsankar94732@gmail.com</li>
-                            <li><img src="src/assets/phone-icon.png" alt="" />+91 7384169731</li>
-                            <li> <img src="src/assets/location-icon.png" alt="" />Panchet, 721438, west Bengal, India</li>
+                            <li><img src={mail} alt="" />dasshibsankar94732@gmail.com</li>
+                            <li><img src={phoneIcon} alt="" />+91 7384169731</li>
+                            <li> <img src={location} alt="" />Panchet, 721438, west Bengal, India</li>
                         </ul>
                     </div>
                     <div className="contact-col">
@@ -53,7 +56,7 @@ function Contact(){
                             <input type="email" name='email' placeholder='Enter your email id' required /> */}
                             <label >Write your messages here</label>
                             <textarea name="message"  rows={'6'} placeholder='Enter your message' required ></textarea>
-                            <button type='submit' className='btn darkbtn'>Submit now <img src="src/assets/white-arrow.png" alt="" /></button>
+                            <button type='submit' className='btn darkbtn'>Submit now <img src={arrow} alt="" /></button>
                         </form>
                         <span>{result}</span>
                     </div>

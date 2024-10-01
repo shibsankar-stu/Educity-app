@@ -1,5 +1,11 @@
 import { useRef } from 'react'
 import '/src/components/testimonials/testimonials.css'
+import use1 from '/src/assets/user-1.png'
+import use2 from '/src/assets/user-2.png'
+import use3 from '/src/assets/user-3.png'
+import use4 from '/src/assets/user-4.png'
+import next from '/src/assets/next-icon.png'
+import back from '/src/assets/back-icon.png'
 function Testimonials(){
 
     const slider = useRef()
@@ -22,14 +28,14 @@ function Testimonials(){
 
     return(<>
                     <div className="testimonials">
-                        <img src="src/assets/next-icon.png" alt="" className='next-btn' onClick={slideForword} />
-                        <img src="src/assets/back-icon.png" alt="" className='back-btn' onClick={slideBackword} />
+                        <img src={next} alt="" className='next-btn' onClick={slideForword} />
+                        <img src={back} alt="" className='back-btn' onClick={slideBackword} />
                         <div className="slider">
                             <ul ref={slider}>
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="src/assets/user-1.png" alt="" />
+                                            <img src={use1} alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>
@@ -42,7 +48,7 @@ function Testimonials(){
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="src/assets/user-2.png" alt="" />
+                                            <img src={use2} alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>
@@ -55,7 +61,7 @@ function Testimonials(){
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="src/assets/user-3.png" alt="" />
+                                            <img src={use3} alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>
@@ -68,7 +74,7 @@ function Testimonials(){
                                 <li>
                                     <div className="slide">
                                         <div className="user-info">
-                                            <img src="src/assets/user-4.png" alt="" />
+                                            <img src={use4} alt="" />
                                             <div>
                                                 <h3>William jackson</h3>
                                                 <span>Adusity, USA</span>

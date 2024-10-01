@@ -1,8 +1,9 @@
 import '/src/components/about/about.css'
+import about from '/src/assets/about.png'
 function About(){
     return(<><div className='about'>
                 <div className="about-left">
-                    <img src="src/assets/about.png" alt="about image" className='about-img'/>
+                    <img src={about} alt="about image" className='about-img'/>
                     <img src="src/assets/play-icon.png" alt="play Icon" className=' play-icon' />
                 </div>
                 <div className="about-right">
