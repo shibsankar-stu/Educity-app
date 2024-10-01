@@ -16,7 +16,7 @@ function Navbar(){
     }
     return(<>
     <nav className={`container ${sticky? 'darknav' : ''}`}>
-        <img src="src/assets/logo.png" alt="" className='logo' />
+        <img src="./src/assets/logo.png" alt="" className='logo' />
         <ul className={mobileMenu?  '' : ' hide-mobile-menu' }>
             <li><Link to = 'hero' smooth = {true} offset={50}  duration={500} >Home</Link></li>
             <li><Link to = 'program' smooth = {true} offset={-260}  duration={500}>Program</Link> </li>
@@ -25,7 +25,7 @@ function Navbar(){
             <li><Link to = 'testimonials' smooth = {true} offset={-260}  duration={500}>Testimonials</Link></li>
             <li><Link to = 'contact' smooth = {true} offset={-260}  duration={500} className='btn'>Contact us</Link></li>
         </ul>
-        <img src="src/assets/menu-icon.png" alt="" className='menu-icon' onClick={togglemenu} />
+        <img src="/src/assets/menu-icon.png" alt="" className='menu-icon' onClick={togglemenu} />
     </nav>
             </>);
 }
